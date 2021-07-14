@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM registry.access.redhat.com/ubi8-minimal
 
 ENV KEYCLOAK_VERSION 12.0.3
 ENV JDBC_POSTGRES_VERSION 42.2.5
